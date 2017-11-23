@@ -13,7 +13,7 @@ describe('controllers', function() {
       it('should return a default string', function(done) {
 
         request(server)
-          .get('/hello')
+          .get('/hello nailah')
           .set('Accept', 'application/json')
           .expect('Content-Type', /json/)
           .expect(200)
